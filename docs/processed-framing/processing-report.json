@@ -1,0 +1,141 @@
+{
+  "processedAt": "2025-07-26T04:25:49.834Z",
+  "summary": {
+    "totalDocuments": 19,
+    "totalConcepts": 17,
+    "categories": 5,
+    "avgWordsPerDoc": 7316
+  },
+  "topConcepts": [
+    {
+      "name": "imagi-nation",
+      "frequency": 16,
+      "categories": [
+        "economic",
+        "operational",
+        "strategic",
+        "communication",
+        "vision"
+      ]
+    },
+    {
+      "name": "systems change",
+      "frequency": 11,
+      "categories": [
+        "economic",
+        "strategic",
+        "operational",
+        "communication",
+        "vision"
+      ]
+    },
+    {
+      "name": "custodianship",
+      "frequency": 10,
+      "categories": [
+        "strategic",
+        "operational",
+        "communication",
+        "economic",
+        "vision"
+      ]
+    },
+    {
+      "name": "hoodie economics",
+      "frequency": 9,
+      "categories": [
+        "economic",
+        "strategic",
+        "operational",
+        "communication",
+        "vision"
+      ]
+    },
+    {
+      "name": "joy corps",
+      "frequency": 8,
+      "categories": [
+        "economic",
+        "strategic",
+        "communication",
+        "operational"
+      ]
+    },
+    {
+      "name": "indigenous systems thinking",
+      "frequency": 5,
+      "categories": [
+        "economic",
+        "strategic"
+      ]
+    },
+    {
+      "name": "impact measurement",
+      "frequency": 5,
+      "categories": [
+        "economic",
+        "strategic",
+        "communication"
+      ]
+    },
+    {
+      "name": "knowledge sharing",
+      "frequency": 5,
+      "categories": [
+        "economic",
+        "strategic",
+        "operational",
+        "communication"
+      ]
+    },
+    {
+      "name": "collaboration",
+      "frequency": 4,
+      "categories": [
+        "economic",
+        "strategic",
+        "communication"
+      ]
+    },
+    {
+      "name": "relational economics",
+      "frequency": 3,
+      "categories": [
+        "economic",
+        "communication"
+      ]
+    }
+  ],
+  "categoryBreakdown": [
+    {
+      "name": "economic",
+      "documentCount": 4,
+      "uniqueConcepts": 15,
+      "avgWordCount": 20373
+    },
+    {
+      "name": "operational",
+      "documentCount": 4,
+      "uniqueConcepts": 6,
+      "avgWordCount": 2349
+    },
+    {
+      "name": "strategic",
+      "documentCount": 4,
+      "uniqueConcepts": 12,
+      "avgWordCount": 3129
+    },
+    {
+      "name": "communication",
+      "documentCount": 4,
+      "uniqueConcepts": 11,
+      "avgWordCount": 6533
+    },
+    {
+      "name": "vision",
+      "documentCount": 3,
+      "uniqueConcepts": 6,
+      "avgWordCount": 3159
+    }
+  ]
+}
