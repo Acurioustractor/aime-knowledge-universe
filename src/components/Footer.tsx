@@ -85,6 +85,12 @@ export default function Footer() {
                 <Link href="/understanding" className="block text-blue-400 hover:text-blue-300 transition-colors font-medium">
                   🎯 Understanding AIME
                 </Link>
+                <Link href="/hoodie-challenge" className="block text-yellow-400 hover:text-yellow-300 transition-colors font-medium">
+                  🏆 Hoodie Challenge BETA
+                </Link>
+                <Link href="/hoodie-stock-exchange" className="block text-green-400 hover:text-green-300 transition-colors font-medium">
+                  💰 Hoodie Stock Exchange
+                </Link>
                 <Link href="/wiki" className="block text-yellow-400 hover:text-yellow-300 transition-colors font-medium">
                   📚 Visit the Wiki
                 </Link>
@@ -105,6 +111,9 @@ export default function Footer() {
                 </Link>
                 <Link href="/research" className="block text-gray-300 hover:text-white transition-colors">
                   Research & Insights
+                </Link>
+                <Link href="/impact-dashboards" className="block text-purple-400 hover:text-purple-300 transition-colors font-medium">
+                  📊 Impact Dashboards
                 </Link>
               </nav>
             </div>

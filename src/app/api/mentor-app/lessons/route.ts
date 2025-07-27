@@ -6,7 +6,8 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
+export const revalidate = 3600; // Cache for 1 hour
 export const runtime = 'nodejs';
 
 /**
@@ -25,12 +26,13 @@ export async function GET(request: NextRequest) {
       throw new Error('Airtable credentials not configured');
     }
 
-    // Get all tables in the DAM base
+    // Get all tables in the DAM base with caching
     const tablesResponse = await fetch(`https://api.airtable.com/v0/meta/bases/${airtableBaseId}/tables`, {
       headers: {
         'Authorization': `Bearer ${airtableApiKey}`,
         'Content-Type': 'application/json'
-      }
+      },
+      next: { revalidate: 3600 } // Cache for 1 hour
     });
 
     if (!tablesResponse.ok) {

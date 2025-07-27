@@ -28,8 +28,8 @@ export default function NewslettersPage() {
         setSyncMessage('Syncing all newsletters from Mailchimp...')
       }
 
-      // Fetch newsletters (sync all if requested)
-      const url = syncAll ? '/api/newsletters?syncAll=true' : '/api/newsletters?count=100'
+      // Fetch newsletters (sync all if requested)  
+      const url = syncAll ? '/api/newsletters?sync=true' : '/api/newsletters?limit=1000'
       console.log(`Fetching newsletters from: ${url}`)
       
       const newslettersResponse = await fetch(url)
@@ -294,15 +294,15 @@ export default function NewslettersPage() {
 
                     {/* Themes and Tags */}
                     <div className="flex flex-wrap gap-2 mb-4">
-                      {newsletter.themes?.slice(0, 3).map(theme => (
+                      {Array.isArray(newsletter.themes) && newsletter.themes.slice(0, 3).map(theme => (
                         <span
-                          key={theme.id}
+                          key={theme.id || theme.name || theme}
                           className="px-2 py-1 bg-blue-100 text-blue-700 text-xs border border-blue-200"
                         >
-                          {theme.name}
+                          {theme.name || theme}
                         </span>
                       ))}
-                      {newsletter.tags?.slice(0, 3).map(tag => (
+                      {Array.isArray(newsletter.tags) && newsletter.tags.slice(0, 3).map(tag => (
                         <span
                           key={tag}
                           className="px-2 py-1 bg-gray-100 text-gray-700 text-xs border border-gray-300"
@@ -318,7 +318,7 @@ export default function NewslettersPage() {
                           Newsletter
                         </span>
                         <span>Source: Mailchimp</span>
-                        {newsletter.authors && newsletter.authors.length > 0 && (
+                        {Array.isArray(newsletter.authors) && newsletter.authors.length > 0 && (
                           <span>By: {newsletter.authors.join(', ')}</span>
                         )}
                       </div>

@@ -83,7 +83,7 @@ export default function Header() {
                 type="text"
                 value={searchValue}
                 onChange={(e) => setSearchValue(e.target.value)}
-                placeholder="What would you like to understand?"
+                placeholder="Search"
                 className="w-full px-6 py-3 text-base border border-gray-300 focus:outline-none focus:border-gray-500 transition-colors"
               />
               <button 
@@ -145,7 +145,7 @@ export default function Header() {
                   type="text"
                   value={searchValue}
                   onChange={(e) => setSearchValue(e.target.value)}
-                  placeholder="What would you like to understand?"
+                  placeholder="Search"
                   className="w-full px-4 py-3 pr-12 border border-gray-300 focus:outline-none focus:border-gray-500 transition-colors"
                 />
                 <button 

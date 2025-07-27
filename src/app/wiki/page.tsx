@@ -1,26 +1,17 @@
 "use client"
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import WikiSidebar from '@/components/wiki/WikiSidebar'
 import WikiContent from '@/components/wiki/WikiContent'
 import WikiSearch from '@/components/wiki/WikiSearch'
 import WikiBreadcrumbs from '@/components/wiki/WikiBreadcrumbs'
-import { FramingProvider } from '@/components/framing/FramingContext'
 
-interface WikiPageProps {
-  searchParams?: {
-    section?: string;
-    page?: string;
-    search?: string;
-  }
-}
-
-export default function WikiPage({ searchParams }: WikiPageProps) {
+export default function WikiPage() {
   const [sidebarOpen, setSidebarOpen] = useState(true)
-  const [currentSection, setCurrentSection] = useState(searchParams?.section || 'overview')
-  const [currentPage, setCurrentPage] = useState(searchParams?.page || 'introduction')
-  const [searchQuery, setSearchQuery] = useState(searchParams?.search || '')
-  const [searchMode, setSearchMode] = useState(!!searchParams?.search)
+  const [currentSection, setCurrentSection] = useState('overview')
+  const [currentPage, setCurrentPage] = useState('introduction')
+  const [searchQuery, setSearchQuery] = useState('')
+  const [searchMode, setSearchMode] = useState(false)
 
   // Handle navigation
   const handleNavigation = (section: string, page?: string) => {
@@ -28,39 +19,16 @@ export default function WikiPage({ searchParams }: WikiPageProps) {
     setCurrentPage(page || 'overview')
     setSearchMode(false)
     setSearchQuery('')
-    
-    // Update URL without page reload
-    if (typeof window !== 'undefined') {
-      const url = new URL(window.location.href)
-      url.searchParams.set('section', section)
-      if (page) url.searchParams.set('page', page)
-      url.searchParams.delete('search')
-      window.history.pushState({}, '', url.toString())
-    }
   }
 
   // Handle search
   const handleSearch = (query: string) => {
     setSearchQuery(query)
     setSearchMode(!!query)
-    
-    // Update URL
-    if (typeof window !== 'undefined') {
-      const url = new URL(window.location.href)
-      if (query) {
-        url.searchParams.set('search', query)
-        url.searchParams.delete('section')
-        url.searchParams.delete('page')
-      } else {
-        url.searchParams.delete('search')
-      }
-      window.history.pushState({}, '', url.toString())
-    }
   }
 
   return (
-    <FramingProvider>
-      <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Wiki Header */}
       <div className="sticky top-0 z-50 bg-white border-b border-gray-200">
         <div className="flex items-center justify-between px-6 py-4">
@@ -130,6 +98,5 @@ export default function WikiPage({ searchParams }: WikiPageProps) {
         </main>
       </div>
     </div>
-    </FramingProvider>
   )
 }

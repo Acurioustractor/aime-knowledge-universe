@@ -124,14 +124,17 @@ export default function WikiSidebar({
       id: 'business-cases',
       title: 'Business Cases',
       icon: '💼',
-      description: 'Real-world implementations',
+      description: 'AIME transformation frameworks',
       pages: [
-        { id: 'overview', title: 'All Business Cases', contentTypes: ['business_case'], count: 156 },
-        { id: 'education-sector', title: 'Education Sector', contentTypes: ['business_case'], count: 67 },
-        { id: 'corporate-partnerships', title: 'Corporate Partnerships', contentTypes: ['business_case'], count: 43 },
-        { id: 'government-initiatives', title: 'Government Initiatives', contentTypes: ['business_case'], count: 28 },
-        { id: 'community-programs', title: 'Community Programs', contentTypes: ['business_case'], count: 52 },
-        { id: 'international-expansion', title: 'International Expansion', contentTypes: ['business_case'], count: 19 }
+        { id: 'overview', title: 'All Business Cases', contentTypes: ['business_case'], count: 8 },
+        { id: 'joy-corps', title: 'Joy Corps', contentTypes: ['business_case'] },
+        { id: 'presidents', title: 'Presidents', contentTypes: ['business_case'] },
+        { id: 'citizens', title: 'Citizens', contentTypes: ['business_case'] },
+        { id: 'imagi-labs', title: 'IMAGI-Labs', contentTypes: ['business_case'] },
+        { id: 'indigenous-labs', title: 'Indigenous Knowledge Systems Labs', contentTypes: ['business_case'] },
+        { id: 'custodians', title: 'Custodians', contentTypes: ['business_case'] },
+        { id: 'mentor-credit', title: 'Mentor Credit', contentTypes: ['business_case'] },
+        { id: 'systems-residency', title: 'Systems Change Residency', contentTypes: ['business_case'] }
       ]
     },
     {
@@ -290,7 +293,7 @@ export default function WikiSidebar({
             </div>
             <div className="flex justify-between">
               <span>Business Cases:</span>
-              <span className="font-medium">156</span>
+              <span className="font-medium">8</span>
             </div>
             <div className="flex justify-between">
               <span>Tools & Frameworks:</span>

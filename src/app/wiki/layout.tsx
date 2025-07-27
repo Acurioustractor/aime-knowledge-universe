@@ -8,14 +8,14 @@ export const metadata = {
   description: 'Comprehensive wiki-style access to all AIME knowledge resources, tools, and content.',
 }
 
-export default function WikiStandaloneLayout({
+export default function WikiLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className} suppressHydrationWarning>
+    <html lang="en">
+      <body className={inter.className}>
         {children}
       </body>
     </html>

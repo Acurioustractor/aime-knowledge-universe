@@ -36,16 +36,20 @@ export default function NewsletterFilters({ newsletters, onFilterChange }: Newsl
 
   // Extract unique values for filter options
   const availableThemes = Array.from(
-    new Set(newsletters.flatMap(n => n.themes?.map(t => t.name) || []))
-  ).sort()
+    new Set(newsletters.flatMap(n => 
+      Array.isArray(n.themes) ? n.themes.map(t => t.name || t) : []
+    ))
+  ).filter(Boolean).sort()
 
   const availableNewsletterTypes = Array.from(
     new Set(newsletters.map(n => n.metadata?.newsletterType || 'general').filter(Boolean))
   ).sort()
 
   const availableAuthors = Array.from(
-    new Set(newsletters.flatMap(n => n.authors || []))
-  ).sort()
+    new Set(newsletters.flatMap(n => 
+      Array.isArray(n.authors) ? n.authors : []
+    ))
+  ).filter(Boolean).sort()
 
   // Get date range for newsletters
   const newsletterDates = newsletters
@@ -93,7 +97,8 @@ export default function NewsletterFilters({ newsletters, onFilterChange }: Newsl
     // Theme filter
     if (filters.themes.length > 0) {
       filtered = filtered.filter(newsletter =>
-        newsletter.themes?.some(theme => filters.themes.includes(theme.name))
+        Array.isArray(newsletter.themes) && 
+        newsletter.themes.some(theme => filters.themes.includes(theme.name || theme))
       )
     }
 
@@ -107,7 +112,8 @@ export default function NewsletterFilters({ newsletters, onFilterChange }: Newsl
     // Author filter
     if (filters.authors.length > 0) {
       filtered = filtered.filter(newsletter =>
-        newsletter.authors?.some(author => filters.authors.includes(author))
+        Array.isArray(newsletter.authors) && 
+        newsletter.authors.some(author => filters.authors.includes(author))
       )
     }
 
