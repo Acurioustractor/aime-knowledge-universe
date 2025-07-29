@@ -1,0 +1,13 @@
+{
+  "crons": [
+    {
+      "path": "/api/youtube/background-sync?type=smart",
+      "schedule": "0 */6 * * *"
+    }
+  ],
+  "functions": {
+    "app/api/youtube/background-sync/route.ts": {
+      "maxDuration": 300
+    }
+  }
+}

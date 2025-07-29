@@ -1,0 +1,42 @@
+[
+  {
+    "id": "recpKfWdSDfEwMUIE",
+    "createdTime": "2024-05-30T06:32:42.000Z",
+    "fields": {
+      "Award Name": "Gold Award for Social Impact",
+      "Screenshot": [
+        {
+          "id": "attupRPyFYqSsWNCi",
+          "width": 805,
+          "height": 460,
+          "url": "https://v5.airtableusercontent.com/v3/u/43/43/1753596000000/j6qWou0I_CcriK2YAHL_Gg/-YfpPyh0y606Wf6HESjwbDsK6FNZOioOq7-7c05nn0v5Dy7M4A10K8qXUaTNKZ9YAe-IsY5mY8Jzq1OTH3lWI0GmyOlwSC2Me_WWK8st-3Z51eeV9Vr9tKXvKLcRd9-mqZ3UEYfzJ7BbUscE0XKi9xEFtHG4FD6k9daiQWVMSr0/wZELLCXRc_2EV94ysTVBPYhZonpS6O3l22mfyGqShTU",
+          "filename": "Of-The-Year-Black.png",
+          "size": 16210,
+          "type": "image/png",
+          "thumbnails": {
+            "small": {
+              "url": "https://v5.airtableusercontent.com/v3/u/43/43/1753596000000/qFfQ8i5NHHemDePoIPqmTw/vrW4fY2AbU_Aa7oCCmxrXSvoCXkBQnpC75Q_OnnmIdV-_nPW-71kCwpqyerccdZ2cwLtVqIJCKIohDDzyGRFSRwMSEW6T-DMCxB4bHuPeDGU3xj6P0pwUkJLKWIPiVJw0LxgRNAqHfLpyQr7LAzGgQ/njN0PMkft9G4V8IXw4U9Pp3GLWLYXD9TiZ1Zz37gPcM",
+              "width": 63,
+              "height": 36
+            },
+            "large": {
+              "url": "https://v5.airtableusercontent.com/v3/u/43/43/1753596000000/b-BajSuvVI8pKeuDnFfkkw/YTjx1jIOJbkshurpGeR36HUS6Pi8ilOCXugpMtrKNyzuofFLY_nn7LHYH-JN719ELa05a0WghZFQaiv6nIpI2YcAkJAlMbtT2iCbCHJKaRyKH_3AUuOKwuFjHxAUvumo5T52OfBKyS1iceh5Fiz9Vw/w2fLeCMwFhb-aDXa9M0kj5tOrIIe3HRfZxCBRv5zyuw",
+              "width": 805,
+              "height": 460
+            },
+            "full": {
+              "url": "https://v5.airtableusercontent.com/v3/u/43/43/1753596000000/cO1QKtSzFcg552S-yJEZmQ/WRB9Yf6ErBZEUNiH8xekVehFGNoAHnp40we4BJQtX2AQGGpBRdonSyVRZT9fORPloNGOTsh1O3Lub-9vDvOhQwhvbV7kQSrdnVZh-npve6dcSw1me2a6w1VBv4BCHJF76hxxbFRS3U3GGcgAz4vK2g/NmFAY_Pi9S5ZfT32MqrAWsMu7S8ekFmLVhzfo583WsM",
+              "width": 805,
+              "height": 460
+            }
+          }
+        }
+      ],
+      "Publisher/Author": "Good Design Australia",
+      "Label": "Jack Manning-Bancroft got a scholarship for University, and being Aboriginal, didn’t see many like him. He knew he’d beat the system to get in, so, he created The Australian Indigenous Mentoring Experience (AIME) to design a new system. Sixteen years later, AIME’s IMAGI-NATION {University} is the culmination of everything that higher education SHOULD be.",
+      "Link": "https://good-design.org/projects/aime-imagi-nation-university/",
+      "Article Name": "AIME IMAGI-NATION {UNIVERSITY}",
+      "Award Year": "2021"
+    }
+  }
+]

@@ -1,0 +1,643 @@
+{
+  "hoodie economics": {
+    "name": "hoodie economics",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime_imagi-nation__investment_deck",
+        "title": "AIME IMAGI-NATION_ Investment Deck",
+        "category": "strategic"
+      },
+      {
+        "id": "aime_imagi-nation_summary",
+        "title": "AIME Imagi-Nation Summary",
+        "category": "strategic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "about_aime_website_2023",
+        "title": "About AIME Website 2023",
+        "category": "operational"
+      },
+      {
+        "id": "earth_commons_interview_asterix",
+        "title": "Earth Commons Interview Asterix",
+        "category": "communication"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      },
+      {
+        "id": "letter_to_humanity_(1)",
+        "title": "Letter to Humanity (1)",
+        "category": "vision"
+      },
+      {
+        "id": "lightning_dec_2024",
+        "title": "Lightning Dec 2024",
+        "category": "operational"
+      }
+    ],
+    "frequency": 9,
+    "categories": [
+      "economic",
+      "strategic",
+      "operational",
+      "communication",
+      "vision"
+    ]
+  },
+  "relational economics": {
+    "name": "relational economics",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "imagi-nation_tour_transcript",
+        "title": "IMAGI-NATION Tour Transcript",
+        "category": "communication"
+      },
+      {
+        "id": "letter_to_billionaires",
+        "title": "Letter to Billionaires",
+        "category": "economic"
+      }
+    ],
+    "frequency": 3,
+    "categories": [
+      "economic",
+      "communication"
+    ]
+  },
+  "indigenous systems thinking": {
+    "name": "indigenous systems thinking",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime_imagi-nation__investment_deck",
+        "title": "AIME IMAGI-NATION_ Investment Deck",
+        "category": "strategic"
+      },
+      {
+        "id": "aime_imagi-nation_summary",
+        "title": "AIME Imagi-Nation Summary",
+        "category": "strategic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      }
+    ],
+    "frequency": 5,
+    "categories": [
+      "economic",
+      "strategic"
+    ]
+  },
+  "joy corps": {
+    "name": "joy corps",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime_imagi-nation_summary",
+        "title": "AIME Imagi-Nation Summary",
+        "category": "strategic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "imagi-nation_grp_$1_trillion",
+        "title": "IMAGI-NATION GRP $1 Trillion",
+        "category": "economic"
+      },
+      {
+        "id": "imagi-nation_tour_transcript",
+        "title": "IMAGI-NATION Tour Transcript",
+        "category": "communication"
+      },
+      {
+        "id": "letter_to_billionaires",
+        "title": "Letter to Billionaires",
+        "category": "economic"
+      },
+      {
+        "id": "lightning_dec_2024",
+        "title": "Lightning Dec 2024",
+        "category": "operational"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      }
+    ],
+    "frequency": 8,
+    "categories": [
+      "economic",
+      "strategic",
+      "communication",
+      "operational"
+    ]
+  },
+  "systems change": {
+    "name": "systems change",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime_imagi-nation_summary",
+        "title": "AIME Imagi-Nation Summary",
+        "category": "strategic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "about_aime_website_2023",
+        "title": "About AIME Website 2023",
+        "category": "operational"
+      },
+      {
+        "id": "earth_commons_interview_asterix",
+        "title": "Earth Commons Interview Asterix",
+        "category": "communication"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      },
+      {
+        "id": "imagi-nation_tour_transcript",
+        "title": "IMAGI-NATION Tour Transcript",
+        "category": "communication"
+      },
+      {
+        "id": "letter_to_billionaires",
+        "title": "Letter to Billionaires",
+        "category": "economic"
+      },
+      {
+        "id": "letter_to_humanity_(1)",
+        "title": "Letter to Humanity (1)",
+        "category": "vision"
+      },
+      {
+        "id": "lightning_dec_2024",
+        "title": "Lightning Dec 2024",
+        "category": "operational"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      }
+    ],
+    "frequency": 11,
+    "categories": [
+      "economic",
+      "strategic",
+      "operational",
+      "communication",
+      "vision"
+    ]
+  },
+  "imagi-nation": {
+    "name": "imagi-nation",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime_full_report_-_year_1",
+        "title": "AIME Full Report - Year 1",
+        "category": "operational"
+      },
+      {
+        "id": "aime_imagi-nation__investment_deck",
+        "title": "AIME IMAGI-NATION_ Investment Deck",
+        "category": "strategic"
+      },
+      {
+        "id": "aime_imagi-nation_summary",
+        "title": "AIME Imagi-Nation Summary",
+        "category": "strategic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "about_aime_website_2023",
+        "title": "About AIME Website 2023",
+        "category": "operational"
+      },
+      {
+        "id": "earth_commons_interview_asterix",
+        "title": "Earth Commons Interview Asterix",
+        "category": "communication"
+      },
+      {
+        "id": "federal_government_aime_proposal_2022-24",
+        "title": "Federal Government AIME Proposal 2022-24",
+        "category": "strategic"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      },
+      {
+        "id": "imagi-nation_grp_$1_trillion",
+        "title": "IMAGI-NATION GRP $1 Trillion",
+        "category": "economic"
+      },
+      {
+        "id": "letter_to_billionaires",
+        "title": "Letter to Billionaires",
+        "category": "economic"
+      },
+      {
+        "id": "letter_to_humanity_(1)",
+        "title": "Letter to Humanity (1)",
+        "category": "vision"
+      },
+      {
+        "id": "patnering_letter_-_pdf",
+        "title": "Patnering letter - pdf",
+        "category": "operational"
+      },
+      {
+        "id": "the_global_need_imagi-nation_tv_sept_2024",
+        "title": "The Global Need IMAGI-NATION TV Sept 2024",
+        "category": "communication"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      },
+      {
+        "id": "we-full",
+        "title": "We-full",
+        "category": "vision"
+      }
+    ],
+    "frequency": 16,
+    "categories": [
+      "economic",
+      "operational",
+      "strategic",
+      "communication",
+      "vision"
+    ]
+  },
+  "digital hoodies": {
+    "name": "digital hoodies",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "imagi-nation_tour_transcript",
+        "title": "IMAGI-NATION Tour Transcript",
+        "category": "communication"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      }
+    ],
+    "frequency": 3,
+    "categories": [
+      "economic",
+      "communication"
+    ]
+  },
+  "impact measurement": {
+    "name": "impact measurement",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      },
+      {
+        "id": "imagi-nation_grp_$1_trillion",
+        "title": "IMAGI-NATION GRP $1 Trillion",
+        "category": "economic"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      }
+    ],
+    "frequency": 5,
+    "categories": [
+      "economic",
+      "strategic",
+      "communication"
+    ]
+  },
+  "sustainability": {
+    "name": "sustainability",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      }
+    ],
+    "frequency": 2,
+    "categories": [
+      "economic",
+      "strategic"
+    ]
+  },
+  "innovation": {
+    "name": "innovation",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      },
+      {
+        "id": "no_shame_at_aime",
+        "title": "No Shame at AIME",
+        "category": "vision"
+      }
+    ],
+    "frequency": 3,
+    "categories": [
+      "economic",
+      "vision"
+    ]
+  },
+  "collaboration": {
+    "name": "collaboration",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "earth_commons_interview_asterix",
+        "title": "Earth Commons Interview Asterix",
+        "category": "communication"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      }
+    ],
+    "frequency": 4,
+    "categories": [
+      "economic",
+      "strategic",
+      "communication"
+    ]
+  },
+  "knowledge sharing": {
+    "name": "knowledge sharing",
+    "documents": [
+      {
+        "id": "100m_capital_shift_global_economics",
+        "title": "100M Capital Shift Global Economics",
+        "category": "economic"
+      },
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "about_aime_website_2023",
+        "title": "About AIME Website 2023",
+        "category": "operational"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      }
+    ],
+    "frequency": 5,
+    "categories": [
+      "economic",
+      "strategic",
+      "operational",
+      "communication"
+    ]
+  },
+  "custodianship": {
+    "name": "custodianship",
+    "documents": [
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "about_aime_website_2023",
+        "title": "About AIME Website 2023",
+        "category": "operational"
+      },
+      {
+        "id": "earth_commons_interview_asterix",
+        "title": "Earth Commons Interview Asterix",
+        "category": "communication"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      },
+      {
+        "id": "imagi-nation_tour_transcript",
+        "title": "IMAGI-NATION Tour Transcript",
+        "category": "communication"
+      },
+      {
+        "id": "letter_to_billionaires",
+        "title": "Letter to Billionaires",
+        "category": "economic"
+      },
+      {
+        "id": "letter_to_humanity_(1)",
+        "title": "Letter to Humanity (1)",
+        "category": "vision"
+      },
+      {
+        "id": "lightning_dec_2024",
+        "title": "Lightning Dec 2024",
+        "category": "operational"
+      },
+      {
+        "id": "patnering_letter_-_pdf",
+        "title": "Patnering letter - pdf",
+        "category": "operational"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      }
+    ],
+    "frequency": 10,
+    "categories": [
+      "strategic",
+      "operational",
+      "communication",
+      "economic",
+      "vision"
+    ]
+  },
+  "imagination curriculum": {
+    "name": "imagination curriculum",
+    "documents": [
+      {
+        "id": "aime’s_imagi-nation_$100m_funder_invitation",
+        "title": "AIME’s IMAGI-NATION $100m Funder Invitation",
+        "category": "strategic"
+      },
+      {
+        "id": "federal_government_aime_proposal_2022-24",
+        "title": "Federal Government AIME Proposal 2022-24",
+        "category": "strategic"
+      },
+      {
+        "id": "hoodie_economics",
+        "title": "Hoodie Economics",
+        "category": "economic"
+      }
+    ],
+    "frequency": 3,
+    "categories": [
+      "strategic",
+      "economic"
+    ]
+  },
+  "mentoring methodology": {
+    "name": "mentoring methodology",
+    "documents": [
+      {
+        "id": "federal_government_aime_proposal_2022-24",
+        "title": "Federal Government AIME Proposal 2022-24",
+        "category": "strategic"
+      }
+    ],
+    "frequency": 1,
+    "categories": [
+      "strategic"
+    ]
+  },
+  "value creation": {
+    "name": "value creation",
+    "documents": [
+      {
+        "id": "imagi-nation_grp_$1_trillion",
+        "title": "IMAGI-NATION GRP $1 Trillion",
+        "category": "economic"
+      }
+    ],
+    "frequency": 1,
+    "categories": [
+      "economic"
+    ]
+  },
+  "reciprocity": {
+    "name": "reciprocity",
+    "documents": [
+      {
+        "id": "no_shame_at_aime",
+        "title": "No Shame at AIME",
+        "category": "vision"
+      },
+      {
+        "id": "townhall_transcript",
+        "title": "Townhall Transcript",
+        "category": "communication"
+      }
+    ],
+    "frequency": 2,
+    "categories": [
+      "vision",
+      "communication"
+    ]
+  }
+}
